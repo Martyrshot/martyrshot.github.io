@@ -1,0 +1,4 @@
+https://martyrshot.run/scripts/init_files/macOS_common.zsh
+https://martyrshot.run/scripts/init_files/macOS_init.zsh
+https://martyrshot.run/scripts/init_files/macOS_term.zsh
+https://martyrshot.run/scripts/init_files/macOS_tools.zsh

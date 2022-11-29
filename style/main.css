@@ -1,0 +1,314 @@
+#main-content {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-position: center;
+}
+
+.name-bold {
+  text-align: center;
+  font-family: din-round,sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.disclaimer {
+  color: #757373;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: din-round,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.disclaimer:before {
+  content:'(';
+  font-size: 40px;
+}
+
+.disclaimer:after {
+  content:')';
+  font-size: 40px;
+}
+
+.contact {
+  background-color: rgba(220, 219, 219, 0.5);
+
+  border-radius: 16px;
+  text-align: center;
+  max-width: 350px;
+  padding: 20px;
+  filter: drop-shadow(5px 2px 2px #969495);
+}
+
+.profile-pic {
+  display: block;
+  margin: 0 auto;
+  max-height: 150px;
+  border-radius: 50%
+}
+
+.social-header {
+  font-family: din-round,sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+}
+
+
+.button-email {
+  appearance: button;
+  background-color: #BB4300;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-email:after {
+  background-clip: padding-box;
+  background-color: #FF5B00;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-email:main,
+.button-email:focus {
+  user-select: auto;
+}
+
+.button-email:hover:not(:disabled) {
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+}
+
+.button-email:disabled {
+  cursor: auto;
+}
+
+.button-github {
+  appearance: button;
+  background-color: #B0001F;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-github:after {
+  background-clip: padding-box;
+  background-color: #E30028;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-github:main,
+.button-github:focus {
+  user-select: auto;
+}
+
+.button-github:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-github:disabled {
+  cursor: auto;
+}
+
+.button-linkedin {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-linkedin:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-linkedin:main,
+.button-linkedin:focus {
+  user-select: auto;
+}
+
+.button-linkedin:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-linkedin:disabled {
+  cursor: auto;
+}
+
+.button-resume {
+  appearance: button;
+  background-color: #4c8b51;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-resume:after {
+  background-clip: padding-box;
+  background-color: #65b96c;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-resume:main,
+.button-resume:focus {
+  user-select: auto;
+}
+
+.button-resume:hover:not(:disabled) {
+  filter: brightness(0.5);
+  -webkit-filter: brightness(0.5);
+}
+
+.button-resume:disabled {
+  cursor: auto;
+}
+
+.button {
+  margin-bottom:5px;
+}
